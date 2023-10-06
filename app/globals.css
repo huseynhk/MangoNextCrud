@@ -11,8 +11,8 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 50, 50, 50;
+    --background-start-rgb: 25, 25, 25;
+    --background-end-rgb: 25, 25, 25;
   }
 }
 
@@ -24,4 +24,9 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+}
+
+
+input{
+  color: rgb(25, 25, 25);
 }
